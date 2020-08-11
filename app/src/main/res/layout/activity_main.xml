@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <Button
+            android:text="Button"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content" android:id="@+id/button4" tools:layout_editor_absoluteY="327dp"
+            tools:layout_editor_absoluteX="16dp" tools:text="@string/BotonModificar"
+            android:onClick="@string/BotonModificar"/>
+    <Button
+            android:text="Button"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content" android:id="@+id/button3" tools:layout_editor_absoluteY="386dp"
+            tools:layout_editor_absoluteX="16dp" tools:text="@string/BotonEliminar"
+            android:onClick="@string/BotonEliminar"/>
+    <Button
+            android:text="Button"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content" android:id="@+id/button2" tools:layout_editor_absoluteY="204dp"
+            tools:layout_editor_absoluteX="16dp" tools:text="@string/BotonRegistrar"
+            android:onClick="@string/BotonRegistrar"/>
+    <Button
+            android:text="Button"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content" android:id="@+id/button" tools:layout_editor_absoluteY="268dp"
+            tools:layout_editor_absoluteX="16dp" tools:text="@string/BotonBuscar"
+            android:onClick="@string/BotonBuscar"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/txt_precio" tools:layout_editor_absoluteY="142dp" tools:layout_editor_absoluteX="16dp"
+            tools:text="@string/txt_precio"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/txt_codigo" tools:layout_editor_absoluteY="16dp" tools:layout_editor_absoluteX="16dp"
+            tools:text="@string/txt_codigo"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txt_descripcion" tools:layout_editor_absoluteY="73dp"
+            tools:layout_editor_absoluteX="16dp" tools:text="@string/txt_descripcion"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
